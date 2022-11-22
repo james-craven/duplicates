@@ -15,7 +15,7 @@ btn.addEventListener('click', () => {
         })
 
     }
-
+    result.innerHTML = "";
     for (let i = 0; i < bullets.length; i++) {
         result.innerHTML += bullets[i] + '<br>';
     }
